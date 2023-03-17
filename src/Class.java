@@ -4,7 +4,7 @@ public class Class {
     int number;
     String words;
     int[] massive;
-    public Class (int number, String words, int[] massive){
+    public Class (int number,String words,int[] massive){
         this.number = number;
         this.words = words;
         this.massive = massive;
@@ -12,8 +12,8 @@ public class Class {
 
     @Override
     public String toString() {
-        return "Class" +
-                "\nnumber: " + number +
+        return "\tClass\n" +
+                "number: " + number +
                 "\nwords: " + words +
                 "\nmassive: " + Arrays.toString(massive);
     }
